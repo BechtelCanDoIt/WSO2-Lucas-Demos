@@ -1,4 +1,4 @@
-```markdown
+
 # Custom Gateway JWT Generator for WSO2 API Manager 4.3.0
 
 This project demonstrates how to create and deploy a custom Gateway JWT generator for WSO2 API Manager 4.3.0. By implementing a custom generator, you gain fine-grained control over the claims included in the JSON Web Tokens (JWTs) issued by the API Gateway.
@@ -35,7 +35,6 @@ Ensure you have the following installed and configured on your system:
 ## Project Structure
 
 ```
-
 custom-gateway-jwt/
 ├── src/
 │   └── main/
@@ -45,8 +44,8 @@ custom-gateway-jwt/
 │                   └── CustomGatewayJWTGenerator.java
 ├── pom.xml
 └── README.md
+```
 
-````
 
 * `src/main/java/org/example/CustomGatewayJWTGenerator.java`: Contains the source code for the custom JWT generator.
 * `pom.xml`: Maven project configuration file, defining dependencies and build instructions.
@@ -68,7 +67,7 @@ mvn archetype:generate \
   -DinteractiveMode=false
 
 cd custom-gateway-jwt
-````
+```
 
 Then, replace the content of the generated `pom.xml` file with the configuration provided in the Medium post.
 
